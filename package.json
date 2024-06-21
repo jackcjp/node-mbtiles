@@ -1,8 +1,8 @@
 {
-  "name": "@mapbox/mbtiles",
-  "version": "0.12.2",
+  "name": "node-mbtilesv123",
+  "version": "0.12.3",
   "description": "Utilities and tilelive integration for the MBTiles format.",
-  "url": "http://github.com/mapbox/node-mbtiles",
+  "url": "https://github.com/jackcjp/node-mbtiles.git",
   "author": "Mapbox (https://www.mapbox.com)",
   "keywords": [
     "map",
@@ -16,7 +16,7 @@
   "main": "./lib/mbtiles",
   "repository": {
     "type": "git",
-    "url": "http://github.com/mapbox/node-mbtiles.git"
+    "url": "git+https://github.com/jackcjp/node-mbtiles.git"
   },
   "contributors": [
     "Tom MacWright <tmcw>",

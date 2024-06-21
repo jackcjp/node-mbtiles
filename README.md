@@ -35,10 +35,10 @@ The `mode` query parameter is a opening flag of mbtiles. It is optional, default
 
 ### Reading
 
-**`getTile(z, x, y, callback)`**
+**`getTile(z, x, y, callback, flip)`**
 
 Get an individual tile from the MBTiles table. This can be a raster or gzipped vector tile. Also returns headers that are important for serving over HTTP.
-
+flip is a boolean to determine if y needs to be flipped. Optional, default is true.
 ```javascript
 mbtiles.getTile(z, x, y, function(err, data, headers) {
   // `data` is your gzipped buffer - use zlib to gunzip or inflate

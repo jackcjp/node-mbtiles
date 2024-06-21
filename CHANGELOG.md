@@ -1,3 +1,6 @@
+# 0.12.3
+ - To determine if y needs to be flipped or not in getTile method
+
 # 0.12.2
  - collects stats in terms of KM2 in a stats file
 
